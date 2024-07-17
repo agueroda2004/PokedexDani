@@ -1,0 +1,159 @@
+body {
+    background-image: url("../Img/FondoVerde.webp");
+    background-size: cover;
+}
+
+.pokedex {
+    margin: 2.3% auto;
+    width: 30%;
+    height: 90vh;
+    background-color: #ff0000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    margin-bottom: 0;
+}
+
+.luces {
+    display: flex;
+}
+
+.luces div {
+    border-radius: 50%;
+}
+
+.luz {
+    width: 25px;
+    height: 25px;
+}
+.Celeste {
+    width: 60px;
+    height: 60px;
+    background-color: aqua;
+    margin: 3% 2vh 3% 2vh;
+    box-shadow: 0 0 10px white;
+}
+.Roja {
+    background-color: #CA2727 ;
+    margin: 8% 0.2vh 0 0.2vh;
+    box-shadow: 0 0 2.5px white;
+}
+.Azul { 
+    background-color: #3558F7;
+    margin: 8% 0.2vh 0 0.2vh;
+    box-shadow: 0 0 2.5px white;
+}
+.Verde {
+    background-color: #2EF343;
+    margin: 8% 0.2vh 0 0.2vh;
+    box-shadow: 0 0 2.5px white;
+}
+
+.Pantalla {
+    width: 90%;
+    height: 40vh;
+    background-color: #CA2727;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.PantallaBlanca {
+    width: 95%;
+    height: 40vh;
+    background-color: #F8F6F6;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 2.5px white;
+    display: flex;
+    flex-direction: column;
+}
+
+#img_pokemon {
+    margin: auto;
+    width: 70%;
+    height: 70%;
+}
+
+.Otros_botones {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 8%;
+    height: 2.5vh;
+}
+
+.boton_redondo { 
+    background-color: aqua;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px white;
+}
+
+.cuadradoVerde {
+    margin: 2% 5%;
+    width: 20%;
+    height: 20px;
+    background-color: #2EF343;
+    border-radius: 5px;
+}
+
+.CuadradoAmarrillo {
+    margin: 2% 0.5%;
+    width: 20%;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+.Buqueda {
+    margin: auto;
+    width: 50%;
+    height: 5vh;
+    padding-left: 5px;
+    color: gray;
+    border: 0;
+    border-radius: 2px;
+    outline: none;
+    font-size: 20px;
+}
+
+.button_Buscar { 
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    background-color: #ED4242;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.button_Buscar:hover {
+    background-color: #e04848; /* Nuevo color de fondo al pasar el ratón */
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); /* Nueva sombra al pasar el ratón */
+}
+
+.Buscar { 
+    display: flex;
+    background-color: #CA2727;
+    width: 90%;
+    height: 20vh;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin: auto;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: gray;
+}
+
+.creador {
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}

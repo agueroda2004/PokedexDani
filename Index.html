@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="shortcut icon" href="Img/Icon_pokebola.png">
+    <title>Pokedex</title>
+</head>
+<body>
+    <div class="pokedex">
+        <div class="luces">
+            <div class="luz Celeste"></div>
+            <div class="luz Roja"></div>
+            <div class="luz Azul"></div>
+            <div class="luz Verde"></div>
+        </div>
+        <div class="Pantalla">
+            <div class="PantallaBlanca" id="pokemon-info">
+                <div class="Pokemones">
+                    <img id="img_pokemon" src="" alt="Imagen del Pokémon">
+                </div>
+            </div>
+        </div>
+        <div class="Otros_botones">
+            <div class="boton_redondo"></div>
+            <div class="cuadradoVerde"></div>
+            <div class="CuadradoAmarrillo"></div>
+        </div>
+        <div class="Buscar">
+            <input class="Buqueda" type="text" id="pokemon-id-input" placeholder="#Id pokemon">
+            <button class="button_Buscar" id="buscar-pokemon-btn"></button>
+        </div>
+        
+    </div>
+    <p class="creador">Created by Dani</p>
+    <script src="Js/pokemon_JQuery_Ajax.js"></script>
+</body>
+</html>
