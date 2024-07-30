@@ -23,7 +23,6 @@ $(document).ready(function() {
                 // Agregar la imagen y los datos al contenedor
                 pokemonInfo.append(imgPokemon);
                 pokemonInfo.append(nameElement);
-                pokemonInfo.append(typesElement);
             },
             error: function(jqXHR, textStatus, errorThrown) {
                 console.error('Error al consultar la API:', errorThrown);

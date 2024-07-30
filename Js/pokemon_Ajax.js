@@ -31,7 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Agregar la imagen y los datos al contenedor
                 pokemonInfo.appendChild(imgPokemon);
                 pokemonInfo.appendChild(nameElement);
-                pokemonInfo.appendChild(typesElement);
             } else {
                 console.error('Error al consultar la API:', xhr.statusText);
             }
